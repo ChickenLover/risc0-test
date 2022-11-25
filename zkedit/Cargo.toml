@@ -1,9 +1,14 @@
 [package]
-name = "starter"
+name = "zkedit"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+risc0-zkvm-core = { version = "0.10", default-features = false, features = ["pure"] }
+serde = { version = "1.0.147", features = ["derive"] }
+
+[dev-dependencies]
+risc0-zkvm-host = "0.10"
+risc0-zkvm-serde = "0.10"
 methods = { path = "../methods" }
-risc0-zkvm = "0.11"
-serde = "1.0"
+byteorder = "1.4.3"
