@@ -1,0 +1,15 @@
+[package]
+
+name = "bmp"
+version = "0.5.0"
+authors = ["Sondre Lefsaker"]
+
+description = "Small library for reading and writing BMP images in Rust."
+documentation = "https://docs.rs/bmp"
+repository = "https://github.com/sondrele/rust-bmp.git"
+homepage = "https://github.com/sondrele/rust-bmp"
+
+license = "MIT"
+readme = "README.md"
+
+keywords = ["bmp", "image"]
